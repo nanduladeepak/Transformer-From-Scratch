@@ -50,7 +50,7 @@ conda install pandas jupyter jupyterlab scikit-learn matplotlib opencv seaborn
 pip install transformers
 
 
-url --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 conda create -n pt_env python=3.10 -y
 conda activate pt_env
 conda install pytorch::pytorch torchvision torchaudio -c pytorch
